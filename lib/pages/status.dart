@@ -10,7 +10,7 @@ class StatusPage extends StatelessWidget {
 
     //listener este es un listener
     final socketService = Provider.of<SocketService>(context);
-
+    
     return Scaffold(
       body: Center(
         child: Column(
